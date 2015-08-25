@@ -1,0 +1,50 @@
+﻿<flash_project name="zombie_attack" version="1">
+    <project_folder name="Actions" expanded="true">
+        <project_file path="./actions/IAction.as" filetype="as" />
+        <project_file path="./actions/Attack.as" filetype="as" />
+        <project_file path="./actions/GroupWith.as" filetype="as" />
+        <project_file path="./actions/LookAround.as" filetype="as" />
+        <project_file path="./actions/Move.as" filetype="as" />
+        <project_file path="./actions/RunAway.as" filetype="as" />
+        <project_file path="./actions/RunTowards.as" filetype="as" />
+        <project_file path="./actions/Shove.as" filetype="as" />
+        <project_file path="./actions/RandomMovement.as" filetype="as" />
+        <project_file path="./actions/TakeItem.as" filetype="as" />
+        <project_file path="./actions/TurnTowards.as" filetype="as" />
+    </project_folder>
+    <project_folder name="testing" expanded="false">
+        <project_folder name="actions" expanded="false">
+            <project_file path="./testing/actions/AttackTest.as" filetype="as" />
+            <project_file path="./testing/actions/GroupWithTest.as" filetype="as" />
+            <project_file path="./testing/actions/MoveTest.as" filetype="as" />
+            <project_file path="./testing/actions/RunAwayTest.as" filetype="as" />
+            <project_file path="./testing/actions/RunTowardsTest.as" filetype="as" />
+            <project_file path="./testing/actions/ShoveTest.as" filetype="as" />
+        </project_folder>
+        <project_file path="./testing/AllTests.as" filetype="as" />
+        <project_file path="./testing/AsUnitTestRunner.as" filetype="as" />
+        <project_file path="./testing/NoiseTest.as" filetype="as" />
+        <project_file path="./testing/NPCTest.as" filetype="as" />
+        <project_file path="./testing/RoomTest.as" filetype="as" />
+        <project_file path="./testing/SurvivorTest.as" filetype="as" />
+        <project_file path="./testing/ZombieTest.as" filetype="as" />
+    </project_folder>
+    <project_folder name="gameitems" expanded="true">
+        <project_file path="./gameitems/IGameItem.as" filetype="as" />
+        <project_file path="./gameitems/Axe.as" filetype="as" />
+        <project_file path="./gameitems/AGameItem.as" filetype="as" />
+        <project_file path="./gameitems/Shotgun.as" filetype="as" />
+        <project_file path="./gameitems/ShotgunShells.as" filetype="as" />
+    </project_folder>
+    <project_file path="./zombie_attack.fla" filetype="fla" profile="" def_file="true" />
+    <project_file path="./ZombieAttack.as" filetype="as" />
+    <project_file path="./Zombie.as" filetype="as" />
+    <project_file path="./Room.as" filetype="as" />
+    <project_file path="./Survivor.as" filetype="as" />
+    <project_file path="./NPC.as" filetype="as" />
+    <project_file path="./Noise.as" filetype="as" />
+    <project_file path="./AsUnitTestRunner.fla" filetype="fla" profile="" />
+    <project_file path="./GameItemFactory.as" filetype="as" />
+    <project_file path="./ItemList.as" filetype="as" />
+    <project_file path="./ScoreBox.as" filetype="as" />
+</flash_project>

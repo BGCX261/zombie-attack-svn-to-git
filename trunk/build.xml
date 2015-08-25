@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="zombie_attack" basedir="." default="update">
+        
+    <target name="update">
+		<echo>Updating ${ant.project.name} from subversion</echo>
+		<exec dir="${basedir}" executable="cmd" failonerror="true" os="Windows XP">
+		    <arg line="svn update" />
+		</exec>
+		<exec dir="${basedir}" executable="svn" failonerror="true" os="Fedora Linux core">
+		    <arg line="update" />
+		</exec>
+    </target>    
+
+</project>
